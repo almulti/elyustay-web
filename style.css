@@ -386,6 +386,9 @@ section .cards .card {
     align-items: center;
     justify-content: center;
   }
+  .card :hover {
+     color: #ddd;
+  }
 }
 
 @media (max-width: 500px) {
